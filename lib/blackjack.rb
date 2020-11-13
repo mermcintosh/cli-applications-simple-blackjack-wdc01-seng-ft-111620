@@ -51,7 +51,7 @@ end
 #####################################################
 
 
-def runner(the_card_total)
+def runner
   welcome  
   initial_round = the_card_total
   while the_card_total < 21
