@@ -51,7 +51,7 @@ end
 #####################################################
 
 
-def runner
+#def runner
   welcome
   initial_round = card_total
   while card_total < 21
@@ -71,4 +71,5 @@ def runner
   end
   end_game(card_total) #prints out once user has lost
 end
+
 
